@@ -27,7 +27,7 @@ def main(page: ft.Page):
         ft.Row([accept_button, decline_button], alignment=ft.MainAxisAlignment.CENTER)
     )
 
-ft.app(target=main, view=ft.WEB_BROWSER)  # Configuração para rodar no navegador
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)  # Configuração para rodar no navegador
 
 # Criar um servidor para a Vercel
 if __name__ == "__main__":
